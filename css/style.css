@@ -49,6 +49,16 @@
   background: linear-gradient(to top, #F7971E, #FFD200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.bgmidnight{
+  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bgclouds{
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .bgwhite{
   background: white;
 }
@@ -57,17 +67,23 @@
   background: black;
 }
 
+.bgcream{
+  background: #FFFDD0;
+}
+
 .sinfo{
   font-size: 12px;
   color: gray;
+  margin: 0 3rem;
 }
 
-.test{
-  height: 1000px;
+.menu{
+  font-size: 20px;
 }
 
-.test2{
+.fullpage{
   height: 100vh;
+  min-height: 500px
 }
 
 body{
@@ -1054,3 +1070,48 @@ hr{
 
 
 .display-none{ display:none !important }
+
+.mouse {
+  display: block;
+  width: 28px;
+  height: 48px;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  z-index: 9999;
+}
+
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: black;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+	}
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+	}
+}
