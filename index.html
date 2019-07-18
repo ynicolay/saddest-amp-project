@@ -93,18 +93,22 @@
 </head>
 
 <body>
-  <header class="fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr2 z1">
+  <section class="fit bgmidnight mx-auto flex justify-center">
+
+  <section class="max-width-2 bgwhite">
+
+  <header class="fixed flex justify-start items-center pl2 pr2 z1">
       <div role="button" aria-label="open sidebar" on="tap:sidebar.toggle" class="pr2 h1">☰</div>
       <!-- <div class="h3">nico</div> -->
   </header>
   <amp-sidebar id="sidebar" layout="nodisplay" side="left" class="col-7 sm-col-5 md-col-4 lg-col-3">
       <ul class="pr2 list-style-none menu">
-        <li class="bold underline"><h2>Scroll</h2></li>
+        <li class="bold cglandl"><h2>Scroll</h2></li>
         <li><a href="#home" on="tap:home.scrollTo">Top</a></li>
         <li><a href="#skills" on="tap:skills.scrollTo">Skills</a></li>
         <li><a href="#portfolio" on="tap:portfolio.scrollTo">Portfolio</a></li>
         <li><a href="#knowme" on="tap:knowme.scrollTo">Know Me</a></li>
-        <li class="bold underline"><h2>Links</h2></li>
+        <li class="bold cglandl"><h2>Links</h2></li>
         <li><a href="#">Email</a></li>
         <li><a href="https://www.github.com/yadrychnikovNicolay">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/yadrychnikov-nicolay/">Linkedin</a></li>
@@ -113,9 +117,10 @@
     </amp-sidebar>
 
   <div id="home" class="pt3 fullpage center">
-    <div class="bglandl cw tilted col-10 mx-auto">
+    <!-- <div class="bglandl cw tilted col-10 mx-auto">
       <h1>YADRYCHNIKOV<br>Nicolay</h1>
-    </div>
+    </div> -->
+    <h1 class="cglandl">YADRYCHNIKOV<br>Nicolay</h1>
     <amp-img src="./img/profile.png" height="100px" width="100px" class="circle border"></amp-img>
       <p class="sinfo">Welcome to my AMP ready website. I built this from scratch just for shits and giggles and from now on I will update it and treat it as my current porfolio</p>
       <p>Web developer</p>
@@ -127,21 +132,19 @@
     <div id="skills" class="pt3 fullpage center">
       <h1 class="cglandl">Skills</h1>
       <p class="sinfo">Professional Web developer specialized in JavaScript and its frameworks </p>
-      <h2 class="underline">Technical</h2>
       <ul class="list-style-none inline p0">
+          <li><h2 class="underline">Technical</h2></li>
           <li>React</li>
           <li>Node.js</li>
           <li>GraphQL</li>
           <li>Next.js</li>
           <li>AMP</li>
           <li>PostgreSQL</li>
-        </ul>
-        <h2 class="underline">Life</h2>
-        <ul class="list-style-none inline p0">
-            <li>Autonomous</li>
-            <li>Passionate</li>
-            <li>Hard-Working</li>
-          </ul>
+          <li><h2 class="underline">Life</h2></li>
+          <li>Autonomous</li>
+          <li>Passionate</li>
+          <li>Hard-Working</li>
+        </ul>            
       <p><a href="#portfolio" on="tap:portfolio.scrollTo">↓ Porfolio ↓</a></p>
     </div>
     <div id="portfolio" class="pt3 fullpage center">
@@ -154,10 +157,10 @@
     </div>
     <div id="knowme" class="pt3 fullpage center">
         <h1 class="cglandl">Know Me</h1>
-        <p class="sinfo">Me and my socials</p>
+        <p class="sinfo">Who am I</p>
         <h2>Bio</h2>
         <div class="mx2 bio">
-          <p>I'm a 22 years old self-taught developer, passionate about the technical world in general my main occupations are the web and computers</p>
+          <p>I'm a 22 years old self-taught developer, passionate about the technical world in general, my main occupations are the web and computers</p>
           <p>Always eager to learn and improve myself, acquiring new skills is a main priority in my professional and personal journey</p>
         </div>
         <h2>Links</h2>
@@ -169,6 +172,9 @@
         </ul>
       </div>
   </div>
+</section>
+</section>
+
 </body>
 
 </html>
