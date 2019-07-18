@@ -71,10 +71,18 @@
   background: #FFFDD0;
 }
 
+.tilted{
+  transform:skewY(2deg);
+}
+
 .sinfo{
   font-size: 12px;
   color: gray;
   margin: 0 3rem;
+}
+
+.bio{
+  font-size: 14px;
 }
 
 .menu{
