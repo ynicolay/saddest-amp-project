@@ -92,6 +92,7 @@
   <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
   <!-- <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script> -->
   <!-- <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script> -->
+  <!-- <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script> -->
 </head>
 
 <body>
@@ -100,7 +101,7 @@
   <section class="max-width-2 bgwhite">
 
   <header class="fixed flex justify-start items-center pl2 pr2 z1">
-      <div role="button" aria-label="open sidebar" on="tap:sidebar.toggle" class="pr2 h1">☰</div>
+      <div role="button" aria-label="open sidebar" on="tap:sidebar.toggle" class="pr2 h1 pointer">☰</div>
       <!-- <div class="h3">nico</div> -->
   </header>
   <amp-sidebar id="sidebar" layout="nodisplay" side="left" class="col-7 sm-col-5 md-col-4 lg-col-3">
@@ -112,9 +113,9 @@
         <li><a href="#knowme" on="tap:knowme.scrollTo">Know Me</a></li>
         <li class="bold cglandl"><h2>Links</h2></li>
         <li><a href="#">Email</a></li>
-        <li><a href="https://www.github.com/yadrychnikovNicolay">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/yadrychnikov-nicolay/">Linkedin</a></li>
-        <li><a href="https://twitter.com/saddeveloper1">Twitter</a></li>
+        <li><a href="https://www.github.com/yadrychnikovNicolay" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/yadrychnikov-nicolay/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+        <li><a href="https://twitter.com/saddeveloper1" target="_blank" rel="noopener noreferrer">Twitter</a></li>
       </ul>
     </amp-sidebar>
 
@@ -124,7 +125,7 @@
     </div> -->
     <h1 class="cglandl">YADRYCHNIKOV<br>Nicolay</h1>
     <amp-img src="./img/profile.png" height="100px" width="100px" class="circle border"></amp-img>
-      <p class="sinfo">Welcome to my AMP ready website. I built this from scratch just for shits and giggles and from now on I will update it and treat it as my current porfolio</p>
+      <p class="sinfo">Welcome to my AMP ready website. I built this from scratch just for shits and giggles and from now on I will update it and treat it as my current website</p>
       <p>Web developer</p>
       <p>22 y/o</p>
       <p>Brussels, Belgium</p>
@@ -157,10 +158,12 @@
       <div>
         <ul class="list-style-none inline p0">
           <li><h2>Professional</h2></li>
-          <li><a href="https://www.cuustomer.com">Cuustomer</a></li>
-          <li><a href="https://github.com/yadrychnikovNicolay/dorothycares">Dorothy Cares</a></li>
+          <li><a href="https://www.cuustomer.com" target="_blank" rel="noopener noreferrer">Cuustomer</a></li>
+          <li><a href="https://github.com/yadrychnikovNicolay/dorothycares" target="_blank" rel="noopener noreferrer">Dorothy Cares</a></li>
           <li><h2>Personal</h2></li>
-          <li><a href="https://glitch.com/~lil-toolbox">Lil' Toolbox</a></li>
+          <li><a href="https://glitch.com/~lil-toolbox" target="_blank" rel="noopener noreferrer">Lil' Toolbox</a></li>
+          <li><a href="https://github.com/yadrychnikovNicolay/jsCipher" target="_blank" rel="noopener noreferrer">jsCipher</a></li>
+          <li><a href="https://github.com/yadrychnikovNicolay/saddest-amp-project" target="_blank" rel="noopener noreferrer">This website</a></li>
         </ul>
         
       </div>
@@ -178,11 +181,21 @@
         <h2>Links</h2>
         <ul class="list-style-none inline p0">
           <li><a href="mailto:yadrychnikov.n@gmail.com">Email</a></li>
-          <li><a>GitHub</a></li>
-          <li><a>LinkedIn</a></li>
-          <li><a href="https://twitter.com/saddeveloper1">Twitter</a></li>
+          <li><a href="https://github.com/yadrychnikovNicolay" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/yadrychnikov-nicolay/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://twitter.com/saddeveloper1" target="_blank" rel="noopener noreferrer">Twitter</a></li>
         </ul>
+        <!-- <p><a href="#home" on="tap:home.scrollTo">↑ Top ↑</a></p> -->
       </div>
+      <!-- <div class="scrolltop">top</div> -->
+      <!-- <div class="parallax-image-window fullpage">
+          <amp-img amp-fx="parallax"
+            data-parallax-factor="1.15"
+            width="618"
+            height="583"
+            layout="responsive"
+            src="https://images.unsplash.com/photo-1527683040093-3a2b80ed1592?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3493d310a725643c1aa1cd201065d31c&auto=format&fit=crop&w=1130&q=80"></amp-img>
+        </div> -->
       <!-- <div class="fullpage">
         <amp-fit-text height="20px" width="200px">
             TEXT TEXT TEXT TEXT TEXT
