@@ -93,6 +93,8 @@
   <!-- <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script> -->
   <!-- <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script> -->
   <!-- <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script> -->
+  <script async custom-element="amp-orientation-observer" src="https://cdn.ampproject.org/v0/amp-orientation-observer-0.1.js"></script>
+
 </head>
 
 <body>
@@ -124,6 +126,7 @@
       <h1>YADRYCHNIKOV<br>Nicolay</h1>
     </div> -->
     <h1 class="cglandl">YADRYCHNIKOV<br>Nicolay</h1>
+    <div id="clock-scene-3" class="clock-scene"> <amp-orientation-observer alpha-range="0 360" on="alpha:clockAnim3.seekTo(percent=event.percent)" layout="nodisplay"> </amp-orientation-observer> <amp-img layout="responsive" width="2" height="1.5" src="/static/samples/img/clock.jpg"> <div class="clock-hand rotate-3"></div> </amp-img>
     <amp-img src="./img/profile.png" height="100px" width="100px" class="circle border"></amp-img>
       <p class="sinfo">Welcome to my AMP ready website. I built this from scratch just for shits and giggles and from now on I will update it and treat it as my current website</p>
       <p>Web developer</p>
