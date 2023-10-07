@@ -2,6 +2,10 @@
   box-sizing:border-box;
 }
 
+.hamburger {
+  cursor: crosshair;
+}
+
 .bgsunkist{
   background: #F2994A;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,8 +35,8 @@
 }
 
 .cglandl{
-  background: -webkit-linear-gradient(to top, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #0080ff, #1e5bf7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0080ff, #1e5bf7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-weight: bold;
   background-clip: text;
   -webkit-background-clip: text;
@@ -40,13 +44,13 @@
 }
 
 .bglandl{
-  background: -webkit-linear-gradient(to top, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #0080ff, #1e5bf7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0080ff, #1e5bf7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bglandlinverted{
-  background: -webkit-linear-gradient(to top, #F7971E, #FFD200);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #F7971E, #FFD200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #1e5bf7, #0080ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1e5bf7, #0080ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bgmidnight{
